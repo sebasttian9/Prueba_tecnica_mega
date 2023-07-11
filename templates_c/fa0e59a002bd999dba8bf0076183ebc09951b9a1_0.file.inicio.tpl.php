@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-07-11 15:52:03
+/* Smarty version 4.3.1, created on 2023-07-11 18:57:39
   from 'C:\xampp\htdocs\prueba_tecnica_mega\Prueba_tecnica_mega\templates\inicio.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_64ad5e83677e37_49100018',
+  'unifunc' => 'content_64ad8a036a6965_28848777',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fa0e59a002bd999dba8bf0076183ebc09951b9a1' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prueba_tecnica_mega\\Prueba_tecnica_mega\\templates\\inicio.tpl',
-      1 => 1689083519,
+      1 => 1689094561,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./navbar.tpl' => 1,
   ),
 ),false)) {
-function content_64ad5e83677e37_49100018 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64ad8a036a6965_28848777 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>

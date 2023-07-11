@@ -21,6 +21,7 @@ $articulos = obtenerArticulos();
 // var_dump($articulos);
 $smarty->assign('articulos', $articulos);
  
+$smarty->assign('title', 'Noticias');
 $smarty->display('index.tpl');
 
 ?>
