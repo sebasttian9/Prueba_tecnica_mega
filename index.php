@@ -1,7 +1,7 @@
 <?php
  
 require 'vendor/autoload.php';
-require 'SQL/conexion.php';
+require 'include/function.php';
  
 $smarty = new Smarty();
  
@@ -12,8 +12,14 @@ $smarty->setConfigDir('config/');
  
 // $smarty->testInstall();
 
-$smarty->assign('title', 'PHP + Smarty');
-$smarty->assign('message', 'Learning a bit about Smarty');
+// Obtengo las noticias de la base de datos
+$noticias = obtenerNoticias();
+// var_dump($noticias);
+$smarty->assign('noticias', $noticias);
+
+$articulos = obtenerArticulos();
+// var_dump($articulos);
+$smarty->assign('articulos', $articulos);
  
 $smarty->display('index.tpl');
 

@@ -6,9 +6,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-        <a class="nav-link" href="#">Notas</a>
-        {* <a class="nav-link" href="#">Noticias</a> *}
+        <a class="nav-link" aria-current="page" href="./inicio.php">Inicio</a>
+        <a class="nav-link" href="./index.php">Notas</a>
+        {* <a class="nav-link" href="">Noticias</a> *}
       </div>
     </div>
   </div>
